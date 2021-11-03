@@ -1,9 +1,11 @@
 header {
   background-color: #ffffff;
+  height: 40px;
 }
 
 body {
   background-color: #C4C4C4;
+  margin: 0;
 }
 
 nav {
@@ -12,10 +14,12 @@ nav {
 
 footer {
   background-color: #ffffff;
+  height: 40px;
 }
 
 .card-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .card {
